@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86ED9836-B9E3-46EC-83FA-EE6FA531ACF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aplicațíe_pentru_prelucrarea_de_fotografii</RootNamespace>
+    <AssemblyName>Aplicațíe pentru prelucrarea de fotografii</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FastImage.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Photo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Photo.Designer.cs">
+      <DependentUpon>Photo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Photo.resx">
+      <DependentUpon>Photo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\crop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\tools_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\presets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\healing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\AplicaFiltruClarendon%28%29%3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\DetectareContururi%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\EfectFisheye%28%29%3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruAlbNegru%28%29%3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruBlur%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruContrast%28%29%3b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruCrossProcessing%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Albastru_Portocaliu%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Gri_Alb%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Maro_Verde%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Mov_Turcoaz%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Rosu_Galben%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruDuotone_Rosu_Verde%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruEqualizareHistograma%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruGlitch%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruHDR%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruKodachrome%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltrulVignette%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruOldMovie%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruPopArt%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruPrewitt%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruRetro%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruSepia%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruSharpen%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruTechnicolor%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruToneCaldeReci%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagesButtonPresets\FiltruVintage%28%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\rotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\rotate_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\rotate_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\flip_v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\flip_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\inclinare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\color_palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\color_buckete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\color_buckete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\ellipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon_paint\curve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\cancel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
