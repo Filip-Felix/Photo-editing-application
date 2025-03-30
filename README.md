@@ -8,3 +8,7 @@ The developed application is an image editor built using C# in Visual Studio, ba
 - **Restoration and Retouching:** Functions for blemish removal, area cloning, and restoring degraded images.  
 
 The graphical user interface is intuitive, featuring a modern design adaptable to different screen resolutions. The application’s performance is optimized to run efficiently on various hardware configurations and to handle large images without lag.  
+
+## **Interface Screenshot**  
+
+![Interface Screenshot](./screenshot.png)
