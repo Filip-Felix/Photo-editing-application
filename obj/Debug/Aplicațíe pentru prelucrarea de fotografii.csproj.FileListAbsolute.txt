@@ -1,0 +1,28 @@
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.exe.config
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.exe
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.pdb
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Form1.resources
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Properties.Resources.resources
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.exe
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.pdb
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Photo.resources
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Home\Desktop\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.CopyComplete
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.exe.config
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.exe
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\Aplicațíe pentru prelucrarea de fotografii.pdb
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\System.Numerics.Vectors.dll
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\bin\Debug\System.Numerics.Vectors.xml
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.AssemblyReference.cache
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Form1.resources
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Photo.resources
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe_pentru_prelucrarea_de_fotografii.Properties.Resources.resources
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.GenerateResource.cache
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.CoreCompileInputs.cache
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.csproj.CopyComplete
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.exe
+D:\An4_F\Licenta\Aplicațíe pentru prelucrarea de fotografii\Aplicațíe pentru prelucrarea de fotografii\obj\Debug\Aplicațíe pentru prelucrarea de fotografii.pdb
